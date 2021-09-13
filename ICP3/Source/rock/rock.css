@@ -1,0 +1,38 @@
+.container{
+    background-color: rosybrown;
+    border-radius: 3px  ;
+    margin: 50px auto;
+    width: 600px;
+    height: 520px;
+    box-shadow: 3px 3px 30px rgba(0,0,0,0.1);
+}
+.button-row {
+    text-align: center;
+    color: green;
+    margin: 0px auto;
+}
+body {
+   background-image:url("https://swall.teahub.io/photos/small/282-2820540_background-image-for-html-page.jpg");
+
+}
+h1 {
+    text-align: center;
+    color: #643e08;
+    padding: 40px 0px 10px;
+}
+label{
+    font-size:x-large;
+    background-color: #c8e5bc;
+}
+table, th, td {
+    text-align: center;
+    border-collapse: collapse;
+}
+th,tr {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}

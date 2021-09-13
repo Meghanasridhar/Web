@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="rock.css">
+    <script type="text/javascript" src="./lib/jquery-3.3.1.min.js"></script>
+</head>
+<body style="background-color: #BCBBBB">
+//code for button
+<div class="container">
+    <h1><i>Rock Paper Scissors</i></h1>
+    <h3 style="text-align: center">Press rock or paper or scissors to start the game</h3>
+
+    <div class="button-row">
+        <button onclick="rock()" type="button" class="rock btn"><img src="rock.jfif" height="200" width="200"/></button>
+        <button onclick="paper()" class="paper btn"><img src="paper.jpg" height="200" width="200"/></button>
+        <button onclick="scissors()" class="scissors btn"><img src="scissors.jpg" height="200" width="200"/></button>
+    </div><br>
+    <div style="text-align: center">
+        <label id="Result"> </label>
+    </div><br>
+    <table class="center">
+        <tr>
+            <td colspan="2" style="background-color:lightseagreen">Score</td>
+        </tr>
+        <tr>
+            <th><span class="user"><i><b>YOU</b></i></span></th>
+            <th><span class="com"><i><b>COMPUTER</b></i></span></th>
+        </tr>
+        <tr>
+            <td colspan="2" ><span id="score"></span></td>
+        </tr>
+    </table>
+    <script src="rock.js"></script>
+</div>
+</body>
+</html>
